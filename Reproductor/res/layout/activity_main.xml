@@ -1,0 +1,105 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LayReproductor"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="308dp"
+        android:text="2.- Winds Of Change- Scorpions"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="84dp"
+        android:text="1.- Don&apos;t  Cry - Guns &apos;n Roses"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="136dp"
+        android:layout_y="0dp"
+        android:text="Menú"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="41dp"
+        android:layout_y="126dp"
+        android:text="Reproducir Cancion:"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btnreproducir"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_x="213dp"
+        android:layout_y="122dp"
+        android:background="@drawable/play" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="39dp"
+        android:layout_y="351dp"
+        android:text="Reproducir Cancion:"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btnreproducir2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_x="212dp"
+        android:layout_y="345dp"
+        android:background="@drawable/play" />
+
+    <Button
+        android:id="@+id/btnparar2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_x="270dp"
+        android:layout_y="347dp"
+        android:background="@drawable/stop" />
+
+    <Button
+        android:id="@+id/btparar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_x="268dp"
+        android:layout_y="121dp"
+        android:background="@drawable/stop" />
+
+    <Button
+        android:id="@+id/btvid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="48dp"
+        android:layout_y="157dp"
+        android:onClick="video1"
+        android:text="Reproducir Video" />
+
+    <Button
+        android:id="@+id/btvid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="55dp"
+        android:layout_y="383dp"
+        android:onClick="video2"
+        android:text="Reproducir Video" />
+
+</AbsoluteLayout>

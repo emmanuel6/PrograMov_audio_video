@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <VideoView
+        android:id="@+id/videoView1"
+        android:layout_width="match_parent"
+        android:layout_height="476dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp" />
+
+    <Button
+        android:id="@+id/btmenu"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_x="318dp"
+        android:layout_y="476dp"
+        android:background="@drawable/menu"
+        android:onClick="cerrar" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="489dp"
+        android:text="Cancion: wind of change" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="278dp"
+        android:layout_y="489dp"
+        android:text="Menú " />
+
+</AbsoluteLayout>
